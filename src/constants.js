@@ -26,7 +26,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import clerk from './assets/tech_logo/Clerk.png';
-import Shadcn from './assets/tech_logo/shadcn.png'
+import shadcn from './assets/tech_logo/shadcn.png'
 import copilot from './assets/tech_logo/copilot.png';
 import cursor from './assets/tech_logo/cursor.png'
 
@@ -65,7 +65,7 @@ export const SkillsInfo = [
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       // { name: 'GSAP', logo: gsapLogo },
-      { name: 'ShadCn', logo: Shadcn },
+      { name: 'ShadCn', logo: shadcn },
 
     ],
   },
