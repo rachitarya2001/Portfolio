@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { projects } from "../../constants";
 
 const Work = () => {
@@ -10,6 +10,11 @@ const Work = () => {
 
   const handleCloseModal = () => {
     setSelectedProject(null);
+  };
+
+  // Function to check if the project has a live link
+  const shouldShowViewLive = (project) => {
+    return project.webapp && project.webapp.trim() !== "";
   };
 
   return (
@@ -107,18 +112,21 @@ const Work = () => {
                     href={selectedProject.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-1/2 bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    className={`bg-gray-800 hover:bg-purple-800 text-gray-400 lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center ${shouldShowViewLive(selectedProject) ? 'w-1/2' : 'w-full'
+                      }`}
                   >
                     View Code
                   </a>
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
+                  {shouldShowViewLive(selectedProject) && (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      View Live
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

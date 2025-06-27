@@ -5,20 +5,14 @@ import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
+// import gsapLogo from './assets/tech_logo/gsap.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
 import javaLogo from './assets/tech_logo/java.png';
 import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
@@ -31,29 +25,31 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+import clerk from './assets/tech_logo/Clerk.png';
+import Shadcn from './assets/tech_logo/Shadcn.png'
+import copilot from './assets/tech_logo/copilot.png';
+import cursor from './assets/tech_logo/cursor.png'
+
 
 // Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+import foreign from './assets/company_logo/foreign.png';
+import veritech from './assets/company_logo/veritech.jpg';
+
 
 // Education Section Logo's
-import glaLogo from './assets/education_logo/gla_logo.png';
-import bsaLogo from './assets/education_logo/bsa_logo.png';
-import vpsLogo from './assets/education_logo/vps_logo.png';
+import Graphic from './assets/education_logo/Graphic.png'
+import hec from './assets/education_logo/hec.png'
+import holy from './assets/education_logo/holy.png'
+
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import hotel from './assets/work_logo/hotel.png'
+import interview from './assets/work_logo/interview.png';
+import vehicle from './assets/work_logo/vehicle.png';
+import virtual from './assets/work_logo/virtual.png';
+import task from './assets/work_logo/task.png';
+import cread from './assets/work_logo/cread.png';
+import book from './assets/work_logo/book.png'
 
 export const SkillsInfo = [
   {
@@ -65,34 +61,33 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
+      // { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      // { name: 'GSAP', logo: gsapLogo },
+      { name: 'ShadCn', logo: Shadcn },
+
     ],
   },
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
       { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Clerk', logo: clerk },
+
     ],
   },
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -108,194 +103,149 @@ export const SkillsInfo = [
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
       { name: 'Figma', logo: figmaLogo },
+      { name: 'copilot', logo: copilot },
+      { name: 'cursor', logo: cursor },
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-  ];  
+export const experiences = [
+  {
+    id: 0,
+    img: foreign,
+    role: "Frontend Developer",
+    company: "ForeignAdmit",
+    date: "February 2025 - Present",
+    desc: "Developed dynamic and scalable web applications using the MEAN stack, managing both frontend and backend development. Collaborated with cross-functional teams to build responsive Angular-based user interfaces, implement RESTful APIs with Node.js and Express, and optimize application performance within an agile development environment.",
+    skills: [
+      "HTML",
+      "CSS",
+      "Angular",
+      "JavaScript",
+      "React JS",
+      "TypeScript",
+      "Node JS",
+      "Tailwind CSS",
+      "MongoDb",
+    ],
+  },
+  {
+    id: 1,
+    img: veritech,
+    role: "Web Developer Inter",
+    company: "Veritech oftware Service",
+    date: "January 2024 - Aril 2024",
+    desc: "Contributed to innovative web projects as a Web Developer, handling both frontend and backend development using technologies like HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Collaborated with the team to build responsive, high-performance websites and enhanced user experience through effective integration of modern web technologies.",
+    skills: [
+      "HTML",
+      "CSS",
+      "ReactJS",
+      "JavaScript",
+      "Tailwind CSS",
+      "SQL",
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: Graphic,
+    school: "Graphic Era University",
+    date: "Aug 2022 - Jun 2024",
+    desc: "I completed my Master of Computer Application (MCA) from Graphic Era University, Dehradun. The program strengthened my foundation in programming, software development, and computer science principles, covering Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in workshops and technical events, enhancing my technical expertise and professional development.",
+    degree: "Master of Computer Application - MCA (Computer Science)",
+  },
+  {
+    id: 1,
+    img: hec,
+    school: "Hec Group of Institution",
+    date: "Aug 2019 - Jun 2022",
+    desc: "I completed my Bachelor of Computer Application (BCA) from HEC Group of Institution, Haridwar. The program provided comprehensive training in core computing fundamentals including Data Structures and Algorithms, Web Development, and Database Management Systems. Through hands-on projects and coursework, I developed practical skills in software development while building a strong foundation in computer science principles and their real-world applications.",
+    degree: "Bachelor of Computer Application - BCA (Computer Science)",
+  },
+  {
+    id: 2,
+    img: holy,
+    school: "Holy Ganges Public School",
+    date: "Apr 2018 - March 2019",
+    desc: "I completed my class 12 education from Holy Ganges Public School, Haridwar, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
+    degree: "CBSE(XII) - PCM",
+  },
+  {
+    id: 3,
+    img: holy,
+    school: "Holy Ganges Public School",
+    date: "Apr 2017 - March 2018",
+    desc: "I completed my class 10 education from Holy Ganges Public School, Haridwar, under the CBSE board, where I studied Science.",
+    degree: "CBSE(X), Science",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Interview Monk.AI",
+    description:
+      "InterviewMock.AI is a powerful and user-friendly React.js application designed to simulate AI-powered mock interviews. Users can choose job roles or domains, and the app generates context-aware questions with instant feedback. Built with React.js, Gemini API, Firebase, and Clerk for authentication, it features role-based interviews, performance evaluation, response history, and a sleek ShadCN UI. The intuitive interface ensures a smooth experience, making it a go-to tool for job seekers and career coaches.",
+    image: interview,
+    tags: ["React (Vite)", "Gemini API", "Firebase", "Clerk authentication", "ShadCN UI"],
+    github: "https://github.com/rachitarya2001/InterviewMonk.ai",
+    webapp: "https://interview-mock-ai.web.app",
+  },
+  {
+    id: 1,
+    title: "CreadCast",
+    description:
+      "CreadCast is a full-stack social media aggregator built with React, Node.js, Express, and MongoDB. It fetches posts from Twitter and Reddit, displaying them in an interactive dashboard where users can share, save, and report content. Features include role-based Admin and User dashboards, secure authentication, and real-time updates for fresh content discovery.",
+    image: cread,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "JavaScript", "Twitter API", "Reddit API"],
+    github: "https://github.com/rachitarya2001/CreadCast",
+
+  },
+  {
+    id: 2,
+    title: "Task Flow",
+    description:
+      "Task Flow is a role-based task management system built with React.js. Managers can assign detailed tasks (including title, description, deadline, technology, and domain) to specific employees. Employees log in to view their assigned tasks, track status, and access all task information. Features a clean, responsive UI designed to streamline project collaboration and task tracking for teams.",
+    image: task,
+    tags: ["React JS", "Rest API", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/rachitarya2001/TaskFlow",
+  },
+  {
+    id: 3,
+    title: "Book Store Application",
+    description:
+      "Book Store is a MERN stack e-commerce application for online book browsing and purchasing. Users can explore books by category, view detailed descriptions, and manage their accounts securely. Features include user authentication, cart management, search functionality, and light/dark mode with a responsive UI for an optimal shopping experience.",
+    image: book,
+    tags: ["React JS", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/rachitarya2001/Book-Store-App",
+  },
+  {
+    id: 4,
+    title: "Vehicle Detection Model",
+    description:
+      "The Vehicle Detection Model is a computer vision project built with Python and YOLOv4 that accurately detects and classifies vehicles (cars, bikes, trucks) in real-time from images or video feeds. Uses OpenCV for image processing and SQLite database for result storage. Optimized for performance and suitable for traffic monitoring, surveillance, or smart parking applications.",
+    image: vehicle,
+    tags: ["Python", "YOLOv4", "Numpy", "Pandas", "Sql"],
+    github: "https://github.com/rachitarya2001/Vehicle-Detection-Model",
+  },
+  {
+    id: 5,
+    title: "Virtual Classroom",
+    description:
+      "Virtual Classroom is a MERN stack web application that connects teachers and students online. Teachers can create classes, assign homework, and upload study materials, while students can join classes, view assignments, and submit work. Features secure role-based authentication, MongoDB data storage, and an intuitive React UI for seamless online education.",
+    image: virtual,
+    tags: ["React JS", "Node.js", "Express", "MongoDB"],
+    github: "https://github.com/rachitarya2001/Virtual-Classroom",
+  },
+  {
+    id: 6,
+    title: "Hotel Management System ",
+    description:
+      "The Hotel Management System is a desktop application built with Java and Swing for efficient hotel operations. It manages room bookings, customer check-ins/check-outs, and handles room details like availability, pricing, and booking dates. Features role-based access for admins and receptionists, secure data storage with Apache server, and a user-friendly GUI for streamlined hotel service management.",
+    image: hotel,
+    tags: ["Java Swing", "Apache Netbeans"],
+    github: "https://github.com/rachitarya2001/Hotel-Management-System",
+  },
+];  
