@@ -26,7 +26,7 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import clerk from './assets/tech_logo/Clerk.png';
-import Shadcn from './assets/tech_logo/Shadcn.png'
+import Shadcn from './assets/tech_logo/shadcn.png'
 import copilot from './assets/tech_logo/copilot.png';
 import cursor from './assets/tech_logo/cursor.png'
 
