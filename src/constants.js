@@ -21,14 +21,10 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import clerk from './assets/tech_logo/Clerk.png';
 import shadcn from './assets/tech_logo/shadcn.png'
-import copilot from './assets/tech_logo/copilot.png';
-import cursor from './assets/tech_logo/cursor.png'
 
 
 // Experience Section Logo's
@@ -58,7 +54,7 @@ export const SkillsInfo = [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
       { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
+      // { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Angular', logo: angularLogo },
       // { name: 'Redux', logo: reduxLogo },
@@ -101,10 +97,10 @@ export const SkillsInfo = [
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
-      { name: 'copilot', logo: copilot },
-      { name: 'cursor', logo: cursor },
+      // { name: 'Netlify', logo: netlifyLogo },
+      // { name: 'Figma', logo: figmaLogo },
+      // { name: 'copilot', logo: copilot },
+      // { name: 'cursor', logo: cursor },
     ],
   },
 ];
@@ -113,7 +109,7 @@ export const experiences = [
   {
     id: 0,
     img: foreign,
-    role: "Frontend Developer",
+    role: "Software Developer",
     company: "ForeignAdmit",
     date: "February 2025 - Present",
     desc: "Developed dynamic and scalable web applications using the MEAN stack, managing both frontend and backend development. Collaborated with cross-functional teams to build responsive Angular-based user interfaces, implement RESTful APIs with Node.js and Express, and optimize application performance within an agile development environment.",
