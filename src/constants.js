@@ -181,7 +181,7 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Interview Monk.AI",
+    title: "Interview Mock.AI",
     description:
       "InterviewMock.AI is a powerful and user-friendly React.js application designed to simulate AI-powered mock interviews. Users can choose job roles or domains, and the app generates context-aware questions with instant feedback. Built with React.js, Gemini API, Firebase, and Clerk for authentication, it features role-based interviews, performance evaluation, response history, and a sleek ShadCN UI. The intuitive interface ensures a smooth experience, making it a go-to tool for job seekers and career coaches.",
     image: interview,
